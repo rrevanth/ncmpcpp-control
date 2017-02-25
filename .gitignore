@@ -1,0 +1,4 @@
+CHANGELOG-*.txt
+/build/
+/releases/
+/tmp/
