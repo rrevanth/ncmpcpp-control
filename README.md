@@ -15,10 +15,10 @@ Control [ncmpcpp](https://rybczak.net/ncmpcpp/) with Media Keys :rewind: :arrow_
 
 
 1. You need to install cmake: `brew install cmake`
-2. Run `make install` to compile *Cmus Control Daemon* and install `ncmpcppcontrold` under `/usr/local/bin` path.
-	A [launchd.plist](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/launchd.plist.5.html) file named `at.fox21.ncmpcppcontrold.plist` will be created under `~/Library/LaunchAgents` to start *Cmus Control Daemon* automatically on login.
+2. Run `make install` to compile *Control Daemon* and install `ncmpcppcontrold` under `/usr/local/bin` path.
+	A [launchd.plist](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/launchd.plist.5.html) file named `at.fox21.ncmpcppcontrold.plist` will be created under `~/Library/LaunchAgents` to start *Control Daemon* automatically on login.
 
-If you just want to compile *Cmus Control Daemon* without installing run `make`. The binary will be created at `build/release/bin/ncmpcppcontrold`.
+If you just want to compile *Control Daemon* without installing run `make`. The binary will be created at `build/release/bin/ncmpcppcontrold`.
 
 #### Uninstall
 
